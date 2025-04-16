@@ -1,1 +1,9 @@
 /* pages/home/home.wxss */
+.image{
+  z-index: -1;
+  width: 100%;
+}
+.current-season-container{
+  margin-top:-30px;
+  z-index: 20;
+}

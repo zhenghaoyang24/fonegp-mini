@@ -1,13 +1,49 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
+page{
+    /* 品牌色 */
+--brand-color: #ff2800;
+
+/* 背景 边框 */
+--bg-color: #ebebeb; /* 深空黑背景 */
+--card-bg-color: #ffffff; /* 卡片背景（带层次感的深灰） */
+--card-border-color: #e8e8e8;
+--view-margin: 8px;
+--card-box-shadow: #e6e6e6;
+
+/* 文字 */
+--text-p: #000000; /* 主要文字（浅灰白） */
+--text-s: #656565; /* 次级文字 */
+--text-inverted: #212529; /* 深色背景上的文字 */
+
+/* 状态色 */
+--success-color: #00ff88; /* 夜赛成功提示 */
+--warning-color: #ff9100; /* 夜赛警告加强 */
+--error-color: #ff4444; /* 夜赛紧急红色 */
+
+/* 赛道元素 */
+--racing-line: #00ffff; /* 夜赛荧光赛道线 */
+--pitstop-blue: #00b4d8; /* 夜赛进站蓝 */
+
+/* 交互状态 */
+--hover-opacity: 0.8; /* 暗夜更高悬停透明度 */
+--active-shadow: 0 0 12px rgba(255, 40, 0, 0.5); /* 更强烈的激活阴影 */
+
+/* 圆角 */
+--border-radius: 0.5rem;
+
+/* 数据可视化专用色 */
+--lap-time-down: #ff4444; /* 下降 */
+--lap-time-up: #00c853; /* 上升 */
+--fast-lap-purple: #7b1fa2; /* DRS区域紫色 */
+}
+
+.card-container {
+  padding: 5px;
+  background-color:var(--brand-color);
+  border-radius: 5px;
+  border: 1px solid var(--card-border-color);
+  width: 100%;
+  box-shadow: 0 0 5px 1px var(--card-box-shadow);
+  width: 100%;
   box-sizing: border-box;
-} 
-.bg-color{
-  background-color: ;
 }

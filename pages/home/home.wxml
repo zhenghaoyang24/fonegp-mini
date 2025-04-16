@@ -1,2 +1,9 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<page>
+  <image class="image" src="/static/images/all_drivers.jpg" mode="aspectFill" />
+
+  <view class="card-container current-season-container">
+  123asdasdasd
+  <view>123</view>
+  </view>
+</page>

@@ -6,6 +6,7 @@
     "pages/info/info"
   ],
   "window": {
+    "backgroundColor": "#e8e8e8",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "FoneGP",
     "navigationBarBackgroundColor": "#ff2800"
@@ -19,20 +20,20 @@
       {
         "pagePath": "pages/home/home",
         "text": "主页",
-        "iconPath": "./assets/images/home.png",
-        "selectedIconPath": "./assets/images/home_selected.png"
+        "iconPath": "./static/images/tarbar/home.png",
+        "selectedIconPath": "./static/images/tarbar/home_selected.png"
       },
       {
         "pagePath": "pages/schedule/schedule",
         "text": "赛程",
-        "iconPath": "./assets/images/schedule.png",
-        "selectedIconPath": "./assets/images/schedule_selected.png"
+        "iconPath": "./static/images/tarbar/schedule.png",
+        "selectedIconPath": "./static/images/tarbar/schedule_selected.png"
       },
       {
         "pagePath": "pages/info/info",
         "text": "信息",
-        "iconPath": "./assets/images/info.png",
-        "selectedIconPath": "./assets/images/info_selected.png"
+        "iconPath": "./static/images/tarbar/info.png",
+        "selectedIconPath": "./static/images/tarbar/info_selected.png"
       }
     ]
   },
