@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view class="index-page">
+<text>{{projectName}}</text>
+</view>
