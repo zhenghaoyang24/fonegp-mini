@@ -1,9 +1,27 @@
 <!--pages/home/home.wxml-->
 <page>
-  <image class="image" src="/static/images/all_drivers.jpg" mode="aspectFill" />
 
-  <view class="card-container current-season-container">
-  123asdasdasd
-  <view>123</view>
+  <view class="home-header">
+    <image class="home-header-image" src="/static/images/all_drivers.jpg" mode="widthFix" />
+    <view class="current-season-v">
+      {{seasonValue}}赛季
+    </view>
+  </view>
+
+  <view class="season-info">
+    <view class="season-info-row season-info-v">
+      <view>24</view>
+      <view>3</view>
+    </view>
+    <view class="season-info-row season-info-title">
+      <view>总场次</view>
+      <view>已完成</view>
+    </view>
+  </view>
+
+  <view class="round-info-container">
+    <view class="card-container">
+      本轮比赛
+    </view>
   </view>
 </page>
