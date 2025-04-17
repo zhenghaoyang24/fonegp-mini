@@ -26,26 +26,32 @@
   align-items: center;
   justify-content: center;
 }
-.season-info{
+
+.season-info {
   padding: 5px;
   background-color: var(--brand-color);
   border-radius: 0 0 5px 5px;
   color: var(--text-inverted);
+  box-shadow: 0rpx 3rpx 4rpx 2rpx rgba(0, 0, 0, 0.514);
 }
-.season-info-title{
+
+.season-info-title {
   padding: 5px;
 }
-.season-info-v{
+
+.season-info-v {
   font-size: 1.5em;
 }
-.season-info-row{
+
+.season-info-row {
   display: flex;
   justify-content: space-around;
 }
-.season-info-row view{
+
+.season-info-row view {
   text-align: center;
 }
 
-.round-info-container{
+.round-info-container {
   padding: 6px;
 }

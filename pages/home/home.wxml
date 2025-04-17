@@ -1,6 +1,5 @@
 <!--pages/home/home.wxml-->
 <page>
-
   <view class="home-header">
     <image class="home-header-image" src="/static/images/all_drivers.jpg" mode="widthFix" />
     <view class="current-season-v">
